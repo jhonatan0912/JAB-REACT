@@ -17,7 +17,7 @@ function KingCard({ image, name }) {
     e.target.innerHTML == "Visto" ? e.target.innerHTML = "" : e.target.innerHTML = "Visto"
   }
   return (
-    <div ref={kingCard} key={name} className="bg-amber-500 rounded-xl w-10/12 py-10">
+    <div ref={kingCard} key={name} className="bg-amber-500 rounded-xl w-10/12 py-10 border-black border">
       <img className='m-auto' src={image} alt={name} onClick={changeImage} />
       <p className='capitalize text-center text-2xl' onClick={changeText}>{name}</p>
     </div>
