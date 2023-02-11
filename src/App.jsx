@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import data from './api/data'
 import { Actividad02 } from './components/Actividad02';
+import { Actividad03 } from './components/Actividad03';
 import { ReyCard } from "./components/ReyCard";
 
 
@@ -15,6 +16,7 @@ function App() {
         }
       </div>
       <Actividad02 reyes={reyes} />
+      <Actividad03 reyes={reyes} />
     </>
   )
 }
