@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import data from './api/data'
+import { Actividad02 } from './components/Actividad02';
 import { ReyCard } from "./components/ReyCard";
 
 
@@ -13,6 +14,7 @@ function App() {
           reyes.map(rey => <ReyCard rey={rey} key={rey.nombre} />)
         }
       </div>
+      <Actividad02 reyes={reyes} />
     </>
   )
 }
