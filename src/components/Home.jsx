@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className='grid grid-cols-3'>
       {lista.map(rey =>
-        <Link to={`/${rey}`}>
+        <Link to={`/reyes/${rey}`}>
           <img src={`https://www.html6.es/img/rey_${rey}.png`} alt="" />
         </Link>)}
     </div>

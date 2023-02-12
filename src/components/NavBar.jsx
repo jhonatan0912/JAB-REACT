@@ -9,22 +9,22 @@ const NavBar = () => {
         to={'/'}>Home</NavLink>
       <NavLink
         className={({ isActive }) => isActive ? "bg-white text-black p-2 font-bold" : null}
-        to={'atanagildo'}>Atanagildo</NavLink>
+        to={'/reyes/atanagildo'}>Atanagildo</NavLink>
       <NavLink
         className={({ isActive }) => isActive ? "bg-white text-black p-2 font-bold" : null}
-        to={'ataulfo'}>Ataulfo</NavLink>
+        to={'/reyes/ataulfo'}>Ataulfo</NavLink>
       <NavLink
         className={({ isActive }) => isActive ? "bg-white text-black p-2 font-bold" : null}
-        to={'ervigio'}>Ervigio</NavLink>
+        to={'/reyes/ervigio'}>Ervigio</NavLink>
       <NavLink
         className={({ isActive }) => isActive ? "bg-white text-black p-2 font-bold" : null}
-        to={'leovigildo'}>Leovigildo</NavLink>
+        to={'/reyes/leovigildo'}>Leovigildo</NavLink>
       <NavLink
         className={({ isActive }) => isActive ? "bg-white text-black p-2 font-bold" : null}
-        to={'recesvinto'}>Recesvinto</NavLink>
+        to={'/reyes/recesvinto'}>Recesvinto</NavLink>
       <NavLink
         className={({ isActive }) => isActive ? "bg-white text-black p-2 font-bold" : null}
-        to={'sisebuto'}>Sisebuto</NavLink>
+        to={'/reyes/sisebuto'}>Sisebuto</NavLink>
     </nav>
   )
 }
