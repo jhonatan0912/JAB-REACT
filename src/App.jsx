@@ -1,10 +1,10 @@
 import React from 'react'
-import Calendario from './components/Calendario'
+import Compra from './components/Compra'
 
 function App() {
   return (
     <>
-      <Calendario />
+      <Compra />
     </>
   )
 }

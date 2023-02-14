@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button {
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  padding: .5em;
+  margin-right: .5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:active{
+  scale: .9;
+  border-radius: .9em;
+}
