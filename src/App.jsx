@@ -1,8 +1,11 @@
 import React from 'react'
+import Calendario from './components/Calendario'
 
 function App() {
   return (
-    <div>App</div>
+    <>
+      <Calendario />
+    </>
   )
 }
 
